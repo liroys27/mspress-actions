@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-simple-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js application for GitHub Actions testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "nodejs",
+    "github-actions"
+  ],
+  "author": "",
+  "license": "ISC"
+}
