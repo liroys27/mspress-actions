@@ -20,7 +20,7 @@ jobs:
     
     - name: Test Variable
       env:
-        MY_TEST_VAR: ${{ secrets.TEST_VAR }}
+        MY_TEST_VAR: ${{ vars.TEST_VAR }}
       run: echo "Variable value is - $MY_TEST_VAR"
     
     - name: Install dependencies
